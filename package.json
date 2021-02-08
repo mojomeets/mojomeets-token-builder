@@ -1,0 +1,21 @@
+{
+  "name": "mojomeets-token-builder",
+  "version": "1.0.0",
+  "description": "A token builder for user authorization",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monisnap-jason/mojomeets-token-builder"
+  },
+  "keywords": [],
+  "author": "monisnap-jason",
+  "license": "ISC"
+}
