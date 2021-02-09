@@ -1,5 +1,5 @@
 {
-  "name": "mojomeets-token-builder",
+  "name": "@mojomeets/mojomeets-token-builder",
   "version": "1.0.0",
   "description": "A token builder for user authorization",
   "main": "dist/index.js",
@@ -9,13 +9,16 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "deploy": "npm run build && npm publish --access=public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monisnap-jason/mojomeets-token-builder"
+    "url": "git+https://github.com/mojomeets/mojomeets-token-builder"
   },
   "keywords": [],
-  "author": "monisnap-jason",
-  "license": "ISC"
+  "author": "mojomeets",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
